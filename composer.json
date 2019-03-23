@@ -1,0 +1,24 @@
+{
+    "name": "kabuchino/kabucrud",
+    "description": "A laravel CRUD component",
+    "type": "composer-plugin",
+    "require": 
+	{
+        "php": ">=5.4.0"
+    },
+    "authors": 
+	[
+        {
+            "name": "kabuchino",
+            "email": "yelibin01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": 
+	{
+		"psr-4": 
+		{
+			"Kabuchino\\": "src/"
+		}
+	}
+}

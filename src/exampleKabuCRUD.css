@@ -1,0 +1,17 @@
+
+tbody tr:hover, thead tr th:hover
+{
+    cursor: pointer;
+}
+
+*
+{
+	outline-style: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	color: white;
+	margin:0 auto;
+}
