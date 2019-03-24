@@ -13,6 +13,7 @@
             "email": "yelibin01@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
 	"autoload": 
 	{
 		"psr-4": 
