@@ -1,21 +1,12 @@
 {
     "name": "kabuchino/kabucrud",
-    "description": "A laravel CRUD component",
 	"type": "library",
 	"license" : "MIT",
-    "authors": 
-	[
-        {
-            "name": "kabuchino",
-            "email": "yelibin01@gmail.com"
-        }
-    ],
 	"minimum-stability": "dev",
 	"require": {},
 	"autoload" : {
 		"psr-4":{
-			"App\\Http\\Controllers\\" : "src/",
-			"App\\Lib\\" : "src/"
+			"App\\Http\\Controllers\\" : "src/"
 		}
 	}
 }
