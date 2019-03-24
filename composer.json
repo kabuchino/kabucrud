@@ -1,7 +1,8 @@
 {
     "name": "kabuchino/kabucrud",
     "description": "A laravel CRUD component",
-	"type": "project",
+	"type": "library",
+	"license" : "MIT",
     "authors": 
 	[
         {
