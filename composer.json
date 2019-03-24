@@ -1,11 +1,6 @@
 {
     "name": "kabuchino/kabucrud",
     "description": "A laravel CRUD component",
-    "type": "composer-plugin",
-    "require": 
-	{
-        "php": ">=5.4.0"
-    },
     "authors": 
 	[
         {
