@@ -9,6 +9,6 @@
             "email": "yelibin01@gmail.com"
         }
     ],
-	"minimun-stability": "dev",
+	"minimum-stability": "dev",
 	"require": {}
 }
