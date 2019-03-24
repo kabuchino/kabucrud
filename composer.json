@@ -1,11 +1,14 @@
 {
     "name": "kabuchino/kabucrud",
     "description": "A laravel CRUD component",
+	"type": "project",
     "authors": 
 	[
         {
             "name": "kabuchino",
             "email": "yelibin01@gmail.com"
         }
-    ]
+    ],
+	"minumun-stability": "dev",
+	"require": {}
 }
