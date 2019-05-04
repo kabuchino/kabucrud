@@ -21,15 +21,15 @@ class TestController extends Controller
     	
     	$crud->setTitle("Gestion de localidades");
     	$crud->setCanCreate(true);
-    	$crud->setCanModify(false);
-    	$crud->setCanDelete(false);
+    	$crud->setCanModify(true);
+    	$crud->setCanDelete(true);
     	$crud->setRenderNavbar(true);
     	$crud->setRenderAlert(true);
     	$crud->setRenderTable(true);
     	$crud->setRenderPager(true);
     	$crud->setPerPage(8);
     	$crud->setSortBy("id");
-    	$crud->setSortByDesc(false);
+    	$crud->setSortByDesc(true);
 
 
     	$crud->render();

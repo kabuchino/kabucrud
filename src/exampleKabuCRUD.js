@@ -463,7 +463,6 @@
         var lis = document.getElementById("modalCreate").getElementsByTagName("div");//Sacar todos los elementos de UL
         for(var i=0;i<lis.length;i++)
         {
-            //parameter+=lis[i].innerHTML + "=" + lis[i].value;
             parameter+=lis[i].getElementsByTagName("input")[0].name;
             if(lis[i].getElementsByTagName("input")[0].type=="checkbox")
             {

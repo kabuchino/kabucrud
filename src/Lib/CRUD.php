@@ -37,10 +37,7 @@ class CRUD {
 		$this->perPage 		= 10;		//How muchu element render in every page
 		$this->sortBy 		= "id";		//Default sort element
 		$this->sortByDesc 	= false;	//If sorted descending
-		$this->appURL		= '//localhost/KabuCrud/public';
-
-		//$this->paginacion=true;
-    	//$this->tamPagina = 5;
+		$this->appURL		= env("APP_URL");
 	}
 
 	public function getTable()
