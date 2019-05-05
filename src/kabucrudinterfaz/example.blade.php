@@ -13,7 +13,7 @@
 	</main>
 	<!-- <footer>Copyright...</footer> -->
 	<script type="text/javascript">
-		let appURL = "{{env('APP_URL')}}"+"/CRUD";
+		let appURL = "{{env('APP_URL')}}"+"/api/CRUD";
 		let canCreate = "{{$canCreate}}";
 		let canModify = "{{$canModify}}"
 		let canDelete = "{{$canDelete}}";

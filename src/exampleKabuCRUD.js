@@ -1,5 +1,3 @@
-    // let appURL = "{{env('APP_URL')}}"; //App url
-    // let appURL = 'http://localhost/KabuCrud/public/CRUD';
     let selectedId = -1;    //Id of de object selected
     let currentPage = -1;   //Current page number
     let TableInformation = null;    //Table´s information

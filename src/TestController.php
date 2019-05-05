@@ -29,7 +29,7 @@ class TestController extends Controller
     	$crud->setRenderPager(true);
     	$crud->setPerPage(8);
     	$crud->setSortBy("id");
-    	$crud->setSortByDesc(true);
+    	$crud->setSortByDesc(false); 
 
 
     	$crud->render();
